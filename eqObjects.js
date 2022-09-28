@@ -35,8 +35,9 @@ const eqObjects = function(object1, object2) {
     if (Array.isArray(object2[key]) || Array.isArray(object1[key])) { //NOTE: Object.keys turns objects into arrays.
       if (!eqArrays(object1[key], object2[key])) { //Checks if the two arrays are NOT equal
         return false; //if the eqArray function indeed checks the two are NOT equal, return false.
-      }
-    } else if (objKeys1[key] !== objKeys2[key]) {
+      } 
+    }
+    if (objKeys1[key] !== objKeys2[key]) {
       return false; //Lastly, checks if both keys have the same value.
     }
   }
