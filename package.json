@@ -1,7 +1,7 @@
 {
-  "name": "lotide2",
+  "name": "@richym1645/lotide2",
   "version": "1.0.0",
-  "description": "",
+  "description": "A mimic of the Lodash library, created for learning purposes.",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,9 @@
     "type": "git",
     "url": "git+https://github.com/richardm1645/lotidev2.git"
   },
-  "author": "",
+  "author": {
+    "name" : "Richard Miao"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/richardm1645/lotidev2/issues"
