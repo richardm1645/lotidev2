@@ -38,8 +38,14 @@ const letterPositions = function(sentence) {
   return results;
 }
 
+/*
+
 //Test cases
 const case1 = "hello";
 eqArrays((letterPositions(case1))["l"], [2, 3])
 //eqArrays((letterPositions(case1))["w"], undefined)
 //Currently doesn't work with nonexistent keys such as "w"
+
+*/
+
+module.exports = letterPositions;

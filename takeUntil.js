@@ -28,6 +28,8 @@ const takeUntil = function(array, callback) {
   return results;
 };
 
+/*
+
 //Test code
 const data1 = [1, 2, 5, 7, 2, -1, 2, 4, 5];
 const results1 = takeUntil(data1, x => {
@@ -44,3 +46,7 @@ const results2 = takeUntil(data2, x => {
 });
 console.log(results2);
 eqArrays(results2, ['I\'ve', 'been', 'to', 'Hollywood']);
+
+*/
+
+module.exports = takeUntil;

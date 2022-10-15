@@ -44,6 +44,7 @@ const eqObjects = function(object1, object2) {
   return true; //If all tests have matched, the function returns true.
 };
 
+/*
 
 //Test code
 const ab = { a: "1", b: "2" };
@@ -63,3 +64,7 @@ const cd3 = { c: "1", d: ["2", 3, 4] };
 const cd4 = { c: "1", d: "2" };
 assertEqual(eqObjects(cd, cd2), false);
 assertEqual(eqObjects(cd3, cd4), false);
+
+*/
+
+module.exports = eqObjects;

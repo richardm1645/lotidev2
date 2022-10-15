@@ -20,6 +20,7 @@ const countLetters = function(sentence) {
   return results;
 };
 
+/*
 
 //Test cases
 const case1 = countLetters("LHL Labs");
@@ -29,3 +30,7 @@ assertEqual(case1["l"], 3);
 assertEqual(case1["h"], 1);
 assertEqual(case1["o"], undefined);
 assertEqual(case2["i"], 3);
+
+*/
+
+module.exports = countLetters;

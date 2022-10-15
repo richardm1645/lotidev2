@@ -42,6 +42,12 @@ const assertObjectsEqual = function(object1, object2) {
   //return true; //If all tests have matched, the function returns true.
 };
 
+/*
+
 //Test code
 assertObjectsEqual({ b: "2", a: "1" }, { b: "2", a: "1" });
 assertObjectsEqual({ a: "1", b: "2", c: "3"}, { a: "1", b: "2"});
+
+*/
+
+module.exports = assertObjectsEqual;
